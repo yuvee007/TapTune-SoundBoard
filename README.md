@@ -15,9 +15,9 @@ Taptune is an interactive web app that lets users play sound effects with a sing
 
 ## 🛠 Technologies Used
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6)**
+- **HTML**
+- **CSS**
+- **JavaScript**
 - JavaScript **Audio API** (`new Audio()`)
 
 ---
