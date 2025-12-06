@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap Tune - Sound Board</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <!-- Header -->
+    <div class="header-section">
+        <h1 class="app-title">TapTune</h1>
+        
+        <div class="header-bar">
+            <div class="volume-box">
+                <i class="fa-solid fa-volume-high volume-icon"></i>
+                <input type="range" class="volume-slider" min="0" max="100" value="50">
+                <span class="volume-number">50%</span>
+            </div>
+
+            <button class="mute-button">
+                <i class="fa-solid fa-volume-xmark"></i>
+                <span>Mute All</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Sounds Grid -->
+    <div class="sounds-container">
+        <div class="sounds-grid">
+            
+            <div class="sound-card" data-sound="dog" data-key="1">
+                <div class="card-top">
+                    <div class="sound-icon-box">
+                        <i class="fa-solid fa-dog"></i>
+                    </div>
+                    <div class="sound-title">Dog Bark</div>
+                </div>
+                <div class="sound-description">
+                    Friendly dog barking sound perfect for notifications and alerts
+                </div>
+            </div>
+
+            <div class="sound-card" data-sound="cheer" data-key="2">
+                <div class="card-top">
+                    <div class="sound-icon-box">
+                        <i class="fa-solid fa-hands-clapping"></i>
+                    </div>
+                    <div class="sound-title">Applause</div>
+                </div>
+                <div class="sound-description">
+                    Crowd clapping and cheering to celebrate achievements
+                </div>
+            </div>
+
+            <div class="sound-card" data-sound="pop" data-key="3">
+                <div class="card-top">
+                    <div class="sound-icon-box">
+                        <i class="fa-solid fa-burst"></i>
+                    </div>
+                    <div class="sound-title">Pop</div>
+                </div>
+                <div class="sound-description">
+                    Quick pop sound ideal for button clicks and interactions
+                </div>
+            </div>
+
+            <div class="sound-card" data-sound="laugh" data-key="4">
+                <div class="card-top">
+                    <div class="sound-icon-box">
+                        <i class="fa-solid fa-face-laugh-beam"></i>
+                    </div>
+                    <div class="sound-title">Laugh</div>
+                </div>
+                <div class="sound-description">
+                    Joyful laughter to add humor and fun to your content
+                </div>
+            </div>
+
+            <div class="sound-card" data-sound="wow" data-key="5">
+                <div class="card-top">
+                    <div class="sound-icon-box">
+                        <i class="fa-solid fa-face-surprise"></i>
+                    </div>
+                    <div class="sound-title">Wow Effect</div>
+                </div>
+                <div class="sound-description">
+                    Dramatic wow sound for surprising moments and reveals
+                </div>
+            </div>
+
+            <div class="sound-card" data-sound="bell" data-key="6">
+                <div class="card-top">
+                    <div class="sound-icon-box">
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                    <div class="sound-title">Bell Ring</div>
+                </div>
+                <div class="sound-description">
+                    Classic bell chime for notifications and reminders
+                </div>
+            </div>
+
+            <div class="sound-card" data-sound="drum" data-key="7">
+                <div class="card-top">
+                    <div class="sound-icon-box">
+                        <i class="fa-solid fa-drum"></i>
+                    </div>
+                    <div class="sound-title">Drum Roll</div>
+                </div>
+                <div class="sound-description">
+                    Suspenseful drum roll building anticipation and excitement
+                </div>
+            </div>
+
+            <div class="sound-card" data-sound="horn" data-key="8">
+                <div class="card-top">
+                    <div class="sound-icon-box">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <div class="sound-title">Air Horn</div>
+                </div>
+                <div class="sound-description">
+                    Loud air horn blast for attention-grabbing moments
+                </div>
+            </div>
+
+            <div class="sound-card" data-sound="success" data-key="9">
+                <div class="card-top">
+                    <div class="sound-icon-box">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <div class="sound-title">Success</div>
+                </div>
+                <div class="sound-description">
+                    Victory fanfare celebrating completed tasks and wins
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
