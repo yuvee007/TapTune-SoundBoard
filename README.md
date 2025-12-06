@@ -29,7 +29,7 @@ Taptune is an interactive web app that lets users play sound effects with a sing
 3. Open `index.html` in a web browser.  
    - Recommended: use a local server (e.g., VS Code **Live Server** extension).
 
-🔗 **Live Demo / Project Link:** `__________________________`
+🔗 **Live Demo / Project Link:** `https://yuvee007.github.io/TapTune-SoundBoard/`
 
 ---
 
